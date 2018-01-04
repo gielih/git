@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		//声明一个map对象
+		 let oMap=new Map();
+
+		 //设置一个值
+		 oMap.set("name","雄鹰");
+		 oMap.set("age","18");
+		 oMap.set("sex",function(){alert(123)});
+		 oMap.set("length",[1,2,3]);
+
+		 for(item of oMap){
+		 	console.log(item[0],item[1]);
+		 };
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

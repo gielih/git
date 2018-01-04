@@ -1,0 +1,137 @@
+ES6
+	let 声明变量 {} 
+	var 预解析特性  function
+
+	const 常量 不能改变 参数/插件名称/版本号
+
+	箭头函数
+		show=()=>{}
+
+		this指向 window
+		arguments 没了  ...arg 代替
+
+	解构赋值：方便解析数据
+
+	数组去重： let arr=new Set([1,2,3,2,1]);
+
+	点点点 var arr=[1,2,3];
+			   arr1=[...arr,4,5];
+			   console.log(arr);
+			   console.log(arr1);
+		   1. 复制数组
+		   2. 箭头函数代表arguments （不定参）
+
+	img 下面会有空隙
+		  解决方法： display :block; 给img标签
+		  			 vertical-align:top/middle/bottom;
+
+		  			 base-line 文本基线；
+	.clearFix:after{ content:''; clear:both; display:block;}
+	.clearFix{ zoom:1;} 
+---------------------------------------------------
+字符串拼接
+	let str=`字符串${n}
+		     `;
+
+---------------------------------------------------
+for	 循环数组
+
+for in 循环json
+
+for of 不能循环json 但可以循环数组和map对象
+
+oMap
+	声明map对象
+	let oMap=new Map();
+
+	//设置map，name和值
+	oMap.set(name,val);
+
+	//删除指定的map对象
+	oMap.delete(name)
+
+	//获取其中的map值
+	oMap.get(name);
+
+	oMap循环
+
+		for(item of oMap){
+			console.log(item[0],item[1]);
+		};
+
+-----------------------------------------------
+ES6面向对象：
+	类 class 
+
+
+-----------------------------------------------
+svn
+	集中式代码管理工具
+
+git 
+	分布式代码管理工具 
+
+	linux命令
+		ls 查看当前目录下的文件
+		touch 文件名称   创建文件
+		mkdir 文件夹名称 创建文件夹
+		cd 文件夹名称    进入文件夹
+		rm 文件名称      删除文件
+		rmdir 文件夹名称 删除文件夹
+		cd .. 返回上一级目录
+		clear 清屏
+
+		编辑文件：
+			vi 文件名
+
+			i  改变插入状态
+
+			esc 退出编辑模式
+
+			:wq 保存并且退出
+
+	下载git
+
+		
+	同步下载项目：	git clone 仓库地址
+
+	添加文件到缓存区  git add 文件名 
+
+	提交文件到本地仓库 git commit -m '提交日志'
+
+	提交文件到服务器  git push 
+						输入账号和密码 
+
+	从服务器更新最新的项目目录 git pull
+
+
+注册github用户：
+	https://github.com/
+
+登录 
+	新建项目
+
+
+git 使用
+
+github 创建项目 项目上传/下载/更新/修改
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+

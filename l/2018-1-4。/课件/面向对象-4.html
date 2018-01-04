@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		
+		function person(name){
+			var obj={};
+
+			obj.name=name;
+
+			obj.fn=function(){
+				alert(this.name)
+			};
+
+			return obj;
+		}
+
+		person('老王').fn();
+		person('老李').fn();
+
+
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

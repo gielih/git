@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		
+		function person(name){
+			//属性 构造函数之内
+			this.name=name;
+		}
+		//方法写到构造函数的原型上
+		person.prototype.fn=function(){
+			alert(this.name);
+		};
+
+		new person('老王').fn();
+		new person('老李').fn();
+
+
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
